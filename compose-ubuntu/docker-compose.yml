@@ -14,7 +14,7 @@ services:
     image: postgres:latest
     restart: always
     environment:
-      - POSTGRES_PASSWORD=admin2$
+      - POSTGRES_PASSWORD=admin
       - POSTGRES_USER=admin
       - POSTGRES_DB=teamcity_db
       - PG_DATA=/var/lib/postgresql/data
